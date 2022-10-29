@@ -48,6 +48,7 @@ const LaraList = () => {
                     Laras.map((lara) => (
                         <Box
                             p={3}
+                            key={lara.id}
                             boxShadow="2xl"
                             shadow={"dark-lg"}
                             transition="0.2s"

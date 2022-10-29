@@ -48,6 +48,7 @@ const WayneList = () => {
                     Waynes.map((wayne) => (
                         <Box
                             p={3}
+                            key={wayne.id}
                             boxShadow="2xl"
                             shadow={"dark-lg"}
                             transition="0.2s"

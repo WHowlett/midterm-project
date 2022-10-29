@@ -52,6 +52,7 @@ const ViewContact = () => {
                     {number &&
                         number.map((info) => (
                             <Box p={3}
+                            key={setContacts.id}
                             boxShadow="2xl"
                             shadow={"dark-lg"}
                             transition="0.2s"
